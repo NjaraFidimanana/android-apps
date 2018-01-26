@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "984719236128",
+    "firebase_url": "https://kaly-a9c3a.firebaseio.com",
+    "project_id": "kaly-a9c3a",
+    "storage_bucket": "kaly-a9c3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984719236128:android:11f3633e9e21575c",
+        "android_client_info": {
+          "package_name": "com.njara.kaly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984719236128-06m5ohfig31csmm6taamgjm8j4pump12.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.njara.kaly",
+            "certificate_hash": "19d700d2de92bc24deee420061a8faea8e947f51"
+          }
+        },
+        {
+          "client_id": "984719236128-k37d7vhhiv3edm4jpdu9bm3no9vfesse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIE6_idSH5U_fYdOKyVcBl-IUFQdu36OY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984719236128-k37d7vhhiv3edm4jpdu9bm3no9vfesse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
