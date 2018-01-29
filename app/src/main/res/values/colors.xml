@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#7c2811</color>
     <color name="colorAccent">#e8254c</color>
     <color name="colorNavIcon">#d15705</color>
+
+    <color name="Red">#ca4343</color>
+    <color name="White">#f7f6f6</color>
 </resources>

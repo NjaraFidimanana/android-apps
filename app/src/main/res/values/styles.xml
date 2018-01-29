@@ -26,6 +26,12 @@
         <!-- <item name="android:listPreferredItemHeightSmall">40dp</item> menu item height-->
         <!--  <item name="android:layout_marginBottom">18dp</item>-->
           <item name="android:activatedBackgroundIndicator">@drawable/drawer_item</item>
-      </style>
+    </style>
+
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/Red</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
 
   </resources>

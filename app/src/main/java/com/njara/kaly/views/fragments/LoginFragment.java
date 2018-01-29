@@ -32,7 +32,7 @@ public class LoginFragment extends Fragment {
         String email="njr801@yahoo.com";
         String password="Testing123";
 
-        fireBaseAuth.createUserWithEmailAndPassword(email, password)
+      /*  fireBaseAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this.parentActivity, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
@@ -51,7 +51,7 @@ public class LoginFragment extends Fragment {
 
                         // ...
                     }
-                });
+                });*/
 
     }
     @Override
