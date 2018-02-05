@@ -19,7 +19,7 @@
             android:title="@string/menu_favorite"/>
 
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_feed"
             android:icon="@drawable/img_nav_feed"
             android:title="@string/menu_feed"/>
     </group>

@@ -9,20 +9,22 @@
               android:paddingLeft="@dimen/activity_horizontal_margin"
               android:paddingRight="@dimen/activity_horizontal_margin"
               android:paddingTop="@dimen/activity_vertical_margin"
-              android:theme="@style/ThemeOverlay.AppCompat.Dark">
+              android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="1">
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/nav_logo_height"
-        android:orientation="horizontal"
-        >
+        android:layout_height="74dp"
+        android:orientation="horizontal">
+
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="@dimen/nav_header_vertical_spacing"
-            android:src="@mipmap/img_logo_kaly"
-
+            android:layout_width="64dp"
+            android:layout_height="64dp"
             android:layout_marginRight="30dp"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:src="@drawable/img_logo_drawer"
+
             />
 
         <TextView
@@ -30,17 +32,21 @@
             android:layout_height="wrap_content"
             android:paddingTop="@dimen/nav_header_vertical_spacing"
             android:text="@string/app_name"
-            android:textSize="24dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="24dp" />
 
     </LinearLayout>
 
 
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_header_login"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/menu_signin"/>
+        android:theme="@style/AppTheme.Button"
+        android:padding="2dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="right"
+        android:text="@string/btn_header_login"
+        android:layout_weight="1.2" />
 
 </LinearLayout>

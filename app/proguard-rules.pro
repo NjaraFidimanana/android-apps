@@ -15,3 +15,13 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+# Add this global rule
+-keepattributes Signature
+
+# This rule will properly ProGuard all the model classes in
+# the package com.njara.kaly.models. Modify to fit the structure
+# of your app.
+
+-keepclassmembers class com.njara.kaly.models.** {
+  *;
+}

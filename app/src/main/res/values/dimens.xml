@@ -8,4 +8,23 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="nav_logo_height">75dp</dimen>
 
+    <dimen name="authenticate_height">600dp</dimen>
+
+    <dimen name="detail_backdrop_height">250dp</dimen>
+    <dimen name="backdrop_title">30dp</dimen>
+    <dimen name="backdrop_subtitle">18dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_food_radius">0dp</dimen>
+    <dimen name="food_cover_height">160dp</dimen>
+    <dimen name="food_title_padding">10dp</dimen>
+    <dimen name="food_title">15dp</dimen>
+
+    <dimen name="ic_food_overflow_width">20dp</dimen>
+    <dimen name="ic_food_overflow_height">30dp</dimen>
+    <dimen name="ic_food_overflow_margin_top">10dp</dimen>
+
+    <dimen name="subTitle_padding_bottom">5dp</dimen>
+    <dimen name="subTitle_text">12dp</dimen>
+
+
 </resources>

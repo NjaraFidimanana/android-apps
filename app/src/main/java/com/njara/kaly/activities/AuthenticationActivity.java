@@ -23,7 +23,7 @@ public class AuthenticationActivity extends AppCompatActivity {
 
         setContentView(R.layout.authentication_main);
 
-        fragmentManager = getSupportFragmentManager();
+        fragmentManager = this.getSupportFragmentManager();
         fragmentTransaction = fragmentManager.beginTransaction();
         String title = getResources().getString(R.string.ac_authentication);
         fragmentTransaction.replace(R.id.authentication_frame, new LoginFragment(),title).commit();

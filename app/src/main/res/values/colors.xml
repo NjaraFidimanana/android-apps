@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#b14c37</color>
-    <color name="colorPrimaryDark">#7c2811</color>
+    <color name="colorPrimary">#ca4343</color>
+    <color name="colorPrimaryDark">#b12c2c</color>
     <color name="colorAccent">#e8254c</color>
-    <color name="colorNavIcon">#d15705</color>
+    <color name="colorNavIcon">#ca4343</color>
 
     <color name="Red">#ca4343</color>
     <color name="White">#f7f6f6</color>
+    <color name="Link">#3a57b1</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="food_title">#4c4c4c</color>
 </resources>

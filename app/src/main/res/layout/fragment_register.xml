@@ -8,7 +8,7 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:paddingTop="56dp"
         android:layout_gravity="center"
         android:paddingLeft="24dp"
@@ -26,12 +26,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+
+            android:layout_marginBottom="8dp">
+
+            <EditText android:id="@+id/input_register_name"
+                android:layout_width="match_parent"
+                android:drawablePadding="10dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/register_name"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp">
             <EditText android:id="@+id/input_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/img_user_auth"
-                android:drawableStart="@drawable/img_user_auth"
                 android:drawablePadding="10dp"
                 android:inputType="textEmailAddress"
                 android:hint="@string/login_email" />
@@ -46,12 +59,25 @@
 
             <EditText android:id="@+id/input_password"
                 android:layout_width="match_parent"
-                android:drawableLeft="@drawable/img_password"
-                android:drawableStart="@drawable/img_password"
                 android:drawablePadding="10dp"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
                 android:hint="@string/login_password"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+
+            android:layout_marginBottom="8dp">
+
+            <EditText android:id="@+id/input_confirm_password"
+                android:layout_width="match_parent"
+                android:drawablePadding="10dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="@string/hint_confirm_password"/>
         </android.support.design.widget.TextInputLayout>
 
         <android.support.v7.widget.AppCompatButton
@@ -62,10 +88,7 @@
             android:layout_marginBottom="24dp"
             android:theme="@style/AppTheme.Button"
             android:padding="12dp"
-            android:gravity="center"
-            android:text="@string/btn_login"/>
-
-
+            android:text="@string/btn_register"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="30dp"
@@ -73,22 +96,23 @@
             android:gravity="center">
 
             <TextView
-                android:id="@+id/text_secondary_desc_create"
+                android:id="@+id/text_secondary_desc_log"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
-                android:text="@string/text_desc_create_account"
+                android:text="@string/text_desc_sign_account"
                 android:textSize="16dip" />
 
-            <TextView
-                android:id="@+id/link_signup"
+            <TextView android:id="@+id/link_signin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:clickable="true"
-                android:text="@string/text_create_account"
+                android:text="@string/text_have_account"
+                android:gravity="center"
                 android:textColor="@color/Link"
-                android:textSize="16dip" />
+                android:textSize="16dip"/>
         </LinearLayout>
+
 
     </LinearLayout>
 </ScrollView>

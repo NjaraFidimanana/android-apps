@@ -21,14 +21,31 @@
     <string name="menu_notifications">Notifications</string>
 
     <string name="ac_authentication">Authentication</string>
+    <string name="ac_login">Sign In</string>
+    <string name="ac_register">Register</string>
 
     <string name="login_password">Password</string>
 
     <string name="login_email">Email</string>
 
-    <string name="text_create_account">No account yet , Create one</string>
+    <string name="text_create_account">Create one</string>
+    <string name="text_desc_create_account">No account yet , </string>
+    <string name="text_desc_sign_account">Already member? , </string>
+
+    <string name="text_have_account">Sign In</string>
 
     <string name="btn_login">Login</string>
 
+    <string name="btn_header_login">Sign up Or Log in</string>
+
+    <string name="btn_register">Register</string>
+
+    <string name="hint_confirm_password">Confirm password</string>
+
+    <string name="register_name">Surname</string>
+
+    <string name="title_feed">Feed</string>
+
+    <string name="action_add_favorite">Add to my favorite</string>
 
 </resources>
